@@ -5,6 +5,8 @@ import FotoPersonal from '../../public/images/profile/fotoCvSinFondo2.png';
 import AnimatedText from '@/components/animatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/icons';
+import HireMe from '@/components/HireMe';
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 
 export default function Home() {
   return (
@@ -16,8 +18,8 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-[80vh]'>
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2'>
-              <Image src={FotoPersonal} alt="Juan Diego Castillo" className="w-full h-auto " />
+            <div className='w-1/2 flex items-center justify-center'>
+              <Image src={FotoPersonal} alt="Juan Diego Castillo" className="w-auto h-[80vh] " />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left'/>
@@ -39,6 +41,10 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className='absolute right-8 bottom-10 inline-block w-24'>
+          <Image src={lightBulb} alt='Juan Diego Castillo' className='w-full h-auto'/>
+        </div>
       </main>
     </>
   )
