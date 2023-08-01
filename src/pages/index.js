@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '@/components/layout';
 import Image from 'next/image';
-import FotoPersonal from '../../public/images/profile/fotoCvSinFondo2.png';
+import FotoPersonal from '../../public/images/profile/fotoCvSinFondo.png';
 import AnimatedText from '@/components/animatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/icons';
@@ -22,7 +22,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full '>
-              <Image src={FotoPersonal} alt="Juan Diego Castillo" className="w-auto h-[80vh] lg:hidden md:inline-block md:w-full"
+              <Image src={FotoPersonal} alt="Juan Diego Castillo" className="w-auto h-screen lg:hidden md:inline-block md:w-full -translate-y-28 sm:-translate-y-10"
                priority  sizes="(max-width:768px) 100vw, 
                (max-width:1200px) 50vw, 33vw"/>
             </div>
@@ -31,7 +31,7 @@ export default function Home() {
               <AnimatedText text="to create something fantastic, you first have to imagine it." className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
               <p className='my-4 text-base font-medium md:text-sm lg:px-24 md:px-0 sm:text-xs'>
-              Welcome! Discover how I combine my passion for programming with the art of design. 
+              Discover how I combine my passion for programming with the art of design. 
               I invite you to get to know me, explore projects and articles that reflect my skills in various technological solutions.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>

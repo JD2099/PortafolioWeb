@@ -4,7 +4,7 @@ import Layout from '@/components/layout'
 import Head from 'next/head'
 import Link from 'next/link';
 import React from 'react'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/proximamente.png'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -128,38 +128,30 @@ const projects = () => {
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12 '>
                         <FeaturedProject 
-                        title='Crypto Screener Application'
+                        title='Coming soon'
                         img={project1}
-                        summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency.'
-                        link="/"
-                        github="/"
+                        summary='Lorem ipsum dolor sit amet consectetur adipiscing elit fringilla primis felis natoque orci malesuada vulputate, aptent nullam penatibus inceptos tempus ullamcorper ultricies blandit duis habitant hac suscipit. Tristique suspendisse nostra rhoncus ad, fames curabitur eros porta a, facilisi pharetra magnis.'
+                        link="#"
+                        github="https://github.com/JD2099"
                         type='Featured Project'
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project
-                        title='Crypto Screener Application'
+                        title='Coming soon'
                         img={project1}
-                        summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency.'
-                        link="/"
-                        github="/"
-                        type='Featured Project'
+                        link="#"
+                        github="https://github.com/JD2099"
+                        type='Project'
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project
-                        title='Crypto Screener Application'
+                        title='Coming soon'
                         img={project1}
-                        summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency.'
-                        link="/"
-                        github="/"
-                        type='Featured Project'
+                        link="#"
+                        github="https://github.com/JD2099"
+                        type='Project'
                         />
                     </div>
 
