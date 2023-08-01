@@ -54,7 +54,7 @@ const about = () => {
                 xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                     <p className='font-medium'>
-                        Hello world, I'm Juan Diego Castillo, I'm from Lima, Peru. I'm a student in the final years of computer science and informatics at Cibertec.
+                        Hello world, I am Juan Diego Castillo, I am from Lima, Peru. I am a student in the final years of computer science and informatics at Cibertec.
                         Passionate about technology, innovation and design. With desire to learn and improve myself every day, increasing my knowledge and skills. 
                     </p>
                     <p className='font-medium my-4'>
