@@ -54,54 +54,12 @@ const Experience = () => {
                          md:w-[2px] md:left-[30px] xs:left-[20px]' />
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                position="Software Engineer"
-                company="Google"
-                companyLink="www.google.com"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-                />
-                <Details 
-                position="Software Engineer"
-                company="Google"
-                companyLink="www.google.com"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-                />
-                <Details 
-                position="Software Engineer"
-                company="Google"
-                companyLink="www.google.com"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-                />
-                <Details 
-                position="Software Engineer"
-                company="Google"
-                companyLink="www.google.com"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-                />
-                <Details 
-                position="Software Engineer"
-                company="Google"
-                companyLink="www.google.com"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                position="Developer"
+                company="Freelance"
+                companyLink="/projects"
+                time="2020-Present"
+                address="Lima, Peru"
+                work="I have worked independently on the projects shown in this portfolio, in addition to academic work and presentations."
                 />
             </ul>
         </div>

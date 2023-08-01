@@ -3,7 +3,7 @@ import Script from 'next/script'
 
 export default function Document() {
   return (
-    <Html lang="es">
+    <Html lang="en">
       <Head />
       <body>
         <Script id='theme-switcher' strategy='beforeInteractive'>
