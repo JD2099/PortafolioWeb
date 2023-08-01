@@ -31,7 +31,7 @@ const AnimatedNumbers = ({value})=>{
                 ref.current.textContent = latest.toFixed(0);
             }
         })
-    },[])
+    },[springValue,value])
 
         return <span ref={ref}></span> 
 };
