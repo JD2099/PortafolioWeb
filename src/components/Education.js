@@ -37,7 +37,7 @@ const Education = () => {
     )
 
   return (
-    <div className='mt-64'>
+    <div className='my-72'>
         <h2 className='font-bold text-8xl mb-32 w-full text-center
         md:text-6xl xs:text-4xl md:mb-16'>
         Education
@@ -48,25 +48,16 @@ const Education = () => {
                          md:w-[2px] md:left-[30px] xs:left-[20px]' />
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                type="Bachelor Of Science In Computer Science"
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
+                type="Autodidact"
+                time="2020-Present"
+                place="Internet"
+                info="I have taken several courses that allow me to develop new skills."
                 />
                 <Details 
-                type="Bachelor Of Science In Computer Science"
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
-                />
-                <Details 
-                type="Bachelor Of Science In Computer Science"
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."
+                type="Bachelor In Computer Science and Informatics"
+                time="2021-Present"
+                place="Cibertec"
+                info="Student of one of the most recognized technological institutes in the country."
                 />
                 
             </ul>

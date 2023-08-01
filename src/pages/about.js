@@ -47,25 +47,21 @@ const about = () => {
         <main className='overflow-hidden flex w-full flex-col items-center justify-center
         dark:text-light'>
             <Layout className='pt-16'>
-            <AnimatedText text='Passion Fuels Purpose!' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl
+            <AnimatedText text='create your own destiny!' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl
             sm:mb-8'/>
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                 <div className='col-span-3 flex flex-col items-start justify-start 
                 xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                     <p className='font-medium'>
-                        Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                        and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                        new and innovative ways to bring my clients' visions to life.
+                        Hello world, I'm Juan Diego Castillo, I am from lima, peru. I am a student in the final years of computer science and informatics at Cibertec.
+                        Passionate about technology, innovation and design. With desire to learn and improve myself every day, increasing my knowledge and skills. 
                     </p>
                     <p className='font-medium my-4'>
-                        I believe that design is about more than just making things look pretty – it's about solving problems and 
-                        creating intuitive, enjoyable experiences for users. 
+                    I enjoy researching from many sources and finding creative ways to solve different problems.
                     </p>
                     <p className='font-medium'> 
-                        Whether I'm working on a website, mobile app, or 
-                        other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                        every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                    I am currently looking for pre-professional experience that will allow me to demonstrate my talent and capabilities, I know how to work in a team and under pressure, either designing, analyzing, or implementing innovative solutions.
                     </p>
                         
                 </div>
@@ -85,7 +81,7 @@ const about = () => {
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold 
                                 md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={50} />+
+                                    <AnimatedNumbers value={10} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75
                                 dark:text-light/75
@@ -94,7 +90,7 @@ const about = () => {
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold 
                                 md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={40} />+
+                                    <AnimatedNumbers value={20} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75
                                 dark:text-light/75
@@ -103,7 +99,7 @@ const about = () => {
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold
                                 md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={4} />+
+                                    <AnimatedNumbers value={2} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75
                                 dark:text-light/75
