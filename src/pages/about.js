@@ -8,6 +8,7 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 
@@ -42,6 +43,7 @@ const about = () => {
             <title>Juan Diego Castillo | About Page</title>
             <meta name='description' content='Página para conocer más acerca de Juan Diego Castillo'></meta>
         </Head>
+        <TransitionEffect />
         <main className='overflow-hidden flex w-full flex-col items-center justify-center
         dark:text-light'>
             <Layout className='pt-16'>

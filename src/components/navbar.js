@@ -87,7 +87,7 @@ const NavBar = () =>{
                     <motion.a href='https://github.com/JD2099' target={'_blank'} rel="noopener noreferrer"
                     whileHover={{y:-2}}
                     whileTap={{scale : 0.9}}
-                    className="w-6 mx-3 ">
+                    className="w-6 mx-3 bg-light rounded-full dark:bg-dark">
                         <GithubIcon />
                     </motion.a>
                     <motion.a href='https://www.linkedin.com/in/juan-diego-castillo-chavez-523257267/' target={'_blank'} rel="noopener noreferrer"
@@ -148,8 +148,8 @@ const NavBar = () =>{
                     </motion.a>
                 
                     <button onClick={() => setMode(mode === 'light'? 'dark' : 'light')}
-                    className={`ml-3 flex items-center justify-center rounded-full sm:mx-1
-                    ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}
+                    className={`ml-3 flex items-center justify-center rounded-full sm:mx-1 p-1
+                    ${mode === 'light' ? 'bg-dark  text-light' : 'bg-light text-dark '}
                     `}
                     >
                     {

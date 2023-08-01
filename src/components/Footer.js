@@ -12,7 +12,7 @@ const Footer = () => {
     md:mt-10
     '>
         <Layout className='!py-2.5 flex items-center justify-center text-center !bg-dark
-        dark:!bg-light mb-0 '>
+        dark:!bg-light '>
             <span>{new Date().getFullYear()}&copy; All Rights Reserved.</span>
             
         </Layout>
